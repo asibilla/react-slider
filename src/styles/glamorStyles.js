@@ -15,9 +15,7 @@ export const slides = css({
 });
 
 export const slide = css({
-  width: '100%',
   display: 'inline-block',
-  textAlign: 'center',
   verticalAlign: 'top'
 });
 
