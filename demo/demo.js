@@ -14,13 +14,16 @@ const pageStyle = css({
 
 
 const config = {
-  slidesInMobileViewport: 2.5,
+  slidesInMobileViewport: 1.5,
   slidesInDesktopViewport: 2.5,
-  leftArrowClass: 'g72-arrow-thin-left',
+  slideMargin: 10,
   mobileBreakpoint: 1023,
+  leftArrowClass: 'g72-arrow-thin-left',
+  rightArrowClass: 'g72-arrow-thin-right',
+  arrowColor: 'black',
   showArrowsOnMobile: false,
   showArrowsOnDesktop: true,
-  rightArrowClass: 'g72-arrow-thin-right',
+  slideDistanceOnClick: 2,
   theme: 'light'
 };
 

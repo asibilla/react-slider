@@ -7,7 +7,7 @@ export const view = css({
   whiteSpace: 'nowrap'
 });
 
-export const slides = css({
+export const slidesDiv = css({
   width: '100%',
   overflow: 'scroll',
   WebkitOverflowScrolling: 'touch',
@@ -40,7 +40,7 @@ export const arrow = css({
   position: 'absolute',
   top: '50%',
   left: '50%',
-  fontSize: '30px',
+  fontSize: '25px',
   transform: 'translate(-50%, -50%)',
 });
 

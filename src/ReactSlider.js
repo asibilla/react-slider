@@ -1,18 +1,21 @@
 import React from 'react';
 
 import Slides from './components/Slides';
+import Arrows from './components/Arrows';
 import { view } from './styles/glamorStyles';
-import { setSlideWidth } from './methods';
+import { setSlideWidth, moveSlider } from './methods';
 
 const defaultConfig = {
   slidesInMobileViewport: 1.5,
   slidesInDesktopViewport: 2.5,
   slideMargin: 10,
-  leftArrowClass: 'g72-arrow-thin-left',
   mobileBreakpoint: 1023,
+  leftArrowClass: 'g72-arrow-thin-left',
+  rightArrowClass: 'g72-arrow-thin-right',
+  arrowColor: 'black',
   showArrowsOnMobile: false,
   showArrowsOnDesktop: true,
-  rightArrowClass: 'g72-arrow-thin-right',
+  slideDistanceOnClick: 2,
   theme: 'light'
 };
 
@@ -24,6 +27,7 @@ export default class GlamorousReactCarousel extends React.Component {
     
     // Bind methods to instance.
     this.setSlideWidth = setSlideWidth.bind(this);
+    this.moveSlider = moveSlider.bind(this);
 
     // Set the initial state.
     this.state = {
@@ -33,8 +37,13 @@ export default class GlamorousReactCarousel extends React.Component {
     }
   }
 
+  get showArrows() {
+    return (this.state.isMobile && this.config.showArrowsOnMobile) ||
+      (!this.state.isMobile && this.config.showArrowsOnDesktop);
+  }
+
   get innerWrapperStyle() {
-    if (!this.state.isMobile) {
+    if (this.showArrows) {
       return {margin: '0 30px'};
     }
     return {};
@@ -46,7 +55,6 @@ export default class GlamorousReactCarousel extends React.Component {
 
   componentDidMount() {
     this.setSlideWidth();
-    console.log('mobile', this.state.isMobile);
     window.addEventListener("resize", this.setSlideWidth);
     window.addEventListener("orientationchange", this.setSlideWidth);
   }
@@ -59,6 +67,15 @@ export default class GlamorousReactCarousel extends React.Component {
   render() {
     return (
       <div className={`${view} mex-slider-wrapper`} ref={el => this.view = el}>
+        {this.showArrows ? 
+          <Arrows
+            leftArrowClass={this.config.leftArrowClass}
+            rightArrowClass={this.config.rightArrowClass}
+            arrowColor={this.config.arrowColor}
+            click={this.moveSlider}
+          /> 
+          : null
+        }
         <div className="mex-slider-inner" style={this.innerWrapperStyle}>
           <Slides 
             slides={this.slides}
