@@ -15,7 +15,11 @@ const pageStyle = css({
 const config = {
   arrowColor: 'black',
   slidesInViewport: {
-    sm: 1.2
+    sm: 1.07,
+    md: 1.5,
+    lg: 2.5,
+    xl: 2.8,
+    xxl: 3.2
   },
   slideWidth: {
     sm: null
