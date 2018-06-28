@@ -115,3 +115,11 @@ export function moveSlider(isNext) {
   }
   this.setState({position: newPos, positionCss: createAnimationString(newPos, this.config.scrollSpeed)});
 }
+
+export function getArrowStyle(isNext) {
+  if ((isNext && this.state.position === this.state.sliderEdge) ||
+    (!isNext && this.state.position === 0)) {
+      return {opacity: '0.4', cursor: 'auto'};
+    }
+    return {};
+}

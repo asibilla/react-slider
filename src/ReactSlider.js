@@ -7,7 +7,8 @@ import {
   setSliderDimensions, 
   moveSlider, 
   mergeConfig,
-  createAnimationString
+  createAnimationString,
+  getArrowStyle
 } from './methods';
 
 const defaultConfig = {
@@ -51,6 +52,7 @@ export default class GlamorousReactCarousel extends React.Component {
     this.setSliderDimensions = setSliderDimensions.bind(this);
     this.moveSlider = moveSlider.bind(this);
     this.createAnimationString = createAnimationString.bind(this);
+    this.getArrowStyle = getArrowStyle.bind(this);
 
     // Set the initial state.
     this.state = {
@@ -96,25 +98,29 @@ export default class GlamorousReactCarousel extends React.Component {
 
   render() {
     return (
-      <div className={`${view} mex-slider-wrapper`} ref={el => this.view = el}>
-        {this.showArrows ? 
-          <Arrows
-            leftArrowClass={this.config.leftArrowClass}
-            rightArrowClass={this.config.rightArrowClass}
-            arrowColor={this.config.arrowColor}
-            click={this.moveSlider}
-          /> 
-          : null
-        }
-        <div className={`${innerView} mex-slider-inner`} style={this.innerWrapperStyle}>
-          <Slides 
-            slides={this.slides}
-            slideCss={this.slideCss}
-            mobile={!this.showArrows}
-            position={this.state.positionCss}
-          />
+      this.slides.length ?
+        <div className={`${view} mex-slider-wrapper`} ref={el => this.view = el}>
+          {this.showArrows ? 
+            <Arrows
+              leftArrowClass={this.config.leftArrowClass}
+              rightArrowClass={this.config.rightArrowClass}
+              leftArrowStyle={this.getArrowStyle(false)}
+              rightArrowStyle={this.getArrowStyle(true)}
+              arrowColor={this.config.arrowColor}
+              click={this.moveSlider}
+            /> 
+            : null
+          }
+          <div className={`${innerView} mex-slider-inner`} style={this.innerWrapperStyle}>
+            <Slides 
+              slides={this.slides}
+              slideCss={this.slideCss}
+              mobile={!this.showArrows}
+              position={this.state.positionCss}
+            />
+          </div>
         </div>
-      </div>
+      : null
     );
   }
 }

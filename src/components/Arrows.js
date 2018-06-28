@@ -9,6 +9,8 @@ import {
 const Arrows = ({
   leftArrowClass,
   rightArrowClass,
+  leftArrowStyle,
+  rightArrowStyle,
   arrowColor,
   click
 }) => {
@@ -22,12 +24,12 @@ const Arrows = ({
       <div className={`${arrowContainer} ${arrowContainerLeft}`} 
         onClick={() => {click(false)}}
       >
-        <div className={`${leftArrowClass} ${arrow} ${arrowColorClass()}`}></div>
+        <div className={`${leftArrowClass} ${arrow} ${arrowColorClass()}`} style={leftArrowStyle}></div>
       </div>
       <div className={`${arrowContainer} ${arrowContainerRight}`} 
         onClick={() => {click(true)}}
       >
-        <div className={`${rightArrowClass} ${arrow} ${arrowColorClass()}`}></div>
+        <div className={`${rightArrowClass} ${arrow} ${arrowColorClass()}`} style={rightArrowStyle}></div>
       </div>
     </div>
   )
