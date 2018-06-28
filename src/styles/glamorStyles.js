@@ -39,4 +39,3 @@ export const arrow = css({
   fontSize: '25px',
   transform: 'translate(-50%, -50%)',
 });
-

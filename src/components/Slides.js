@@ -9,6 +9,10 @@ const Slides = ({
   position
 }) => {
   
+  /**
+   * If mobile, allow native scrolling to advance slider. 
+   * Otherwise use transition css saved to state.
+   */
   function returnSlidesProps() {
     if (mobile) {
       return {

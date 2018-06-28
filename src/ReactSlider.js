@@ -72,6 +72,8 @@ export default class GlamorousReactCarousel extends React.Component {
 
   get innerWrapperStyle() {
     if (this.showArrows) {
+      // If arrows are displayed, we need to leave gutters so that they
+      // don't cover the slides. 
       return {
         width: 'calc(100% - 60px)',
         margin: '0 30px'

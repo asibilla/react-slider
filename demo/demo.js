@@ -56,6 +56,7 @@ const slides = [
 
 export default class Demo extends React.Component {
 
+  // Slider accepts an array of React components as its slide prop.
   returnSlideArray() {
     return slides.map(slideItem => <AppCard data={slideItem} />)
   }
