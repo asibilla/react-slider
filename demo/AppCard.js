@@ -3,7 +3,10 @@ import { css } from 'glamor';
 
 const imgStyle = css({
   width: '100%',
-  maxWidth: '100%'
+});
+
+const logoStyle = css({
+  width: '90%'
 });
 
 const footerBorder = css({
@@ -33,17 +36,17 @@ export const AppCard = ({
   data
 }) => {
   return (
-    <div className="ncss-container">
+    <div className="ncss-container mb1-sm">
       <div className="ncss-row">
         <div className="ncss-col-sm-12 p4-sm border-medium-grey">
           
           <div className="ncss-row mb3-sm">
             <div className="ncss-col-sm-2 va-sm-t">
-              <img className={imgStyle} src={data.appLogo} />
+              <img className={logoStyle} src={data.appLogo} />
             </div>
             <div className="ncss-col-sm-6 va-sm-t full">
-              <h2 className="fs12-sm lh14-sm u-bold">{data.appTitle}</h2>
-              <p className="fs12-sm lh14-sm text-color-grey">Available in the App Store</p>
+              <h2 className="fs12-sm lh14-sm fs14-md lh-16-md u-bold">{data.appTitle}</h2>
+              <p className="fs12-sm lh14-sm fs14-md lh16-md text-color-grey">Available in the App Store</p>
             </div>
             <div className="ncss-col-sm-4 va-sm-t ta-sm-r">
               <button 
@@ -61,8 +64,8 @@ export const AppCard = ({
 
           <div className="ncss-row mb4-sm">
             <div className="ncss-col-sm-12">
-              <h1 className="fs12-sm lh14-sm">{data.title}</h1>
-              <p className="fs12-sm lh14-sm text-color-grey">{data.subtitle}</p>
+              <h1 className="fs12-sm lh14-sm fs14-md lh-16-md">{data.title}</h1>
+              <p className="fs12-sm lh14-sm fs14-md lh-16-md text-color-grey">{data.subtitle}</p>
             </div>
           </div>
 
@@ -71,7 +74,7 @@ export const AppCard = ({
 
       <div className="ncss-row">
         <div className={`${footerBorder} ncss-col-sm-12 p4-sm`}>
-          <p className="fs12-sm u-bold">{data.footer}</p>
+          <p className="fs12-sm fs14-xl u-bold">{data.footer}</p>
         </div>
       </div>
     </div>

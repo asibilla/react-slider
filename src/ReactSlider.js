@@ -66,7 +66,8 @@ export default class GlamorousReactCarousel extends React.Component {
   }
 
   get showArrows() {
-    return this.config.showArrows[this.state.currentBreakpoint];
+    return this.config.showArrows[this.state.currentBreakpoint] && 
+      this.view && this.view.clientWidth < this.state.sliderWidth;
   }
 
   get innerWrapperStyle() {

@@ -12,7 +12,7 @@ export const innerView = css({
 
 export const slide = css({
   display: 'inline-block',
-  verticalAlign: 'top'
+  verticalAlign: 'middle'
 });
 
 export const arrowContainer = css({

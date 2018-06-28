@@ -16,7 +16,7 @@ const config = {
   arrowColor: 'black',
   slidesInViewport: {
     sm: 1.07,
-    md: 1.5,
+    md: 1.8,
     lg: 2.5,
     xl: 2.8,
     xxl: 3.2
@@ -34,9 +34,25 @@ const slides = [
     'Trending',
     'Featured Story',
     'Explore everything that Nike has to offer, tailored to you.'
-  )
-];
+  ), 
+  new AppCardData(
+    './img/app_2.png',
+    'Nike Run Club App',
+    './img/img_2.png',
+    'Just Released',
+    'New Audio Guided Run',
+    'Find the motivation you need to run better and more often.'
+  ), 
+  new AppCardData(
+    './img/app_3.png',
+    'Nike Training Club App',
+    './img/img_3.png',
+    'New Workout Collection',
+    'Boxer Arms',
+    'Break a sweat to over 160 guided workouts.'
+  ),
 
+];
 
 export default class Demo extends React.Component {
 
