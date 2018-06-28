@@ -20,12 +20,12 @@ const Arrows = ({
   return (
     <div className="arrows">
       <div className={`${arrowContainer} ${arrowContainerLeft}`} 
-        onClick={e => {click(e, false)}}
+        onClick={() => {click(false)}}
       >
         <div className={`${leftArrowClass} ${arrow} ${arrowColorClass()}`}></div>
       </div>
       <div className={`${arrowContainer} ${arrowContainerRight}`} 
-        onClick={e => {click(e, true)}}
+        onClick={() => {click(true)}}
       >
         <div className={`${rightArrowClass} ${arrow} ${arrowColorClass()}`}></div>
       </div>

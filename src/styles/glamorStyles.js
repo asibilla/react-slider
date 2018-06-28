@@ -3,15 +3,11 @@ import { css } from 'glamor';
 export const view = css({
   position: 'relative',
   width: '100%',
-  overflow: 'hidden',
   whiteSpace: 'nowrap'
 });
 
-export const slidesDiv = css({
-  width: '100%',
-  overflow: 'scroll',
-  WebkitOverflowScrolling: 'touch',
-  overflowScrolling: 'touch'
+export const innerView = css({
+  overflow: 'hidden'
 });
 
 export const slide = css({

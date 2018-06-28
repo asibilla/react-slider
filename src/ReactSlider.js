@@ -2,8 +2,13 @@ import React from 'react';
 
 import Slides from './components/Slides';
 import Arrows from './components/Arrows';
-import { view } from './styles/glamorStyles';
-import { setSlideWidth, moveSlider, mergeConfig } from './methods';
+import { view, innerView } from './styles/glamorStyles';
+import { 
+  setSliderDimensions, 
+  moveSlider, 
+  mergeConfig,
+  createAnimationString
+} from './methods';
 
 const defaultConfig = {
   slidesInViewport: {
@@ -11,7 +16,7 @@ const defaultConfig = {
     md: 2.5,
     lg: 3.5,
     xl: 4.5,
-    xxl: 5.5
+    xxl: 4.5
   },
   slideWidth: {
     sm: null,
@@ -20,13 +25,19 @@ const defaultConfig = {
     xl: null,
     xxl: null
   },
+  showArrows: {
+    sm: false,
+    md: false,
+    lg: true,
+    xl: true,
+    xxl: true
+  },
   slideMargin: 10,
   leftArrowClass: 'g72-arrow-thin-left',
   rightArrowClass: 'g72-arrow-thin-right',
   arrowColor: 'black',
-  showArrowsOnMobile: false,
-  showArrowsOnDesktop: true,
   slideDistanceOnClick: 2,
+  scrollSpeed: 500,
   theme: 'light'
 };
 
@@ -34,31 +45,38 @@ export default class GlamorousReactCarousel extends React.Component {
   constructor(props) {
     super(props);
     this.config = mergeConfig(defaultConfig, props.config);
-
-    console.log('merged config', this.config);
     this.slides = props.slides || [];
     
     // Bind methods to instance.
-    this.setSlideWidth = setSlideWidth.bind(this);
+    this.setSliderDimensions = setSliderDimensions.bind(this);
     this.moveSlider = moveSlider.bind(this);
+    this.createAnimationString = createAnimationString.bind(this);
 
     // Set the initial state.
     this.state = {
       slideWidth: 0,
+      sliderWidth: 0,
+      sliderEdge: 0,
       position: 0,
+      positionCss: this.createAnimationString(0, 0),
       currentBreakpoint: 'lg',
     }
   }
 
   get showArrows() {
-    return true;
+    return this.config.showArrows[this.state.currentBreakpoint];
   }
 
   get innerWrapperStyle() {
     if (this.showArrows) {
-      return {margin: '0 30px'};
+      return {
+        width: 'calc(100% - 60px)',
+        margin: '0 30px'
+      };
     }
-    return {};
+    return {
+      width: '100%'
+    };
   }
 
   get slideCss() {
@@ -66,14 +84,14 @@ export default class GlamorousReactCarousel extends React.Component {
   }
 
   componentDidMount() {
-    this.setSlideWidth();
-    window.addEventListener("resize", this.setSlideWidth);
-    window.addEventListener("orientationchange", this.setSlideWidth);
+    this.setSliderDimensions();
+    window.addEventListener("resize", this.setSliderDimensions);
+    window.addEventListener("orientationchange", this.setSliderDimensions);
   }
 
   componentWillUnmount() {
-    window.removeEventListener("resize", this.setSlideWidth);
-    window.removeEventListener("orientationchange", this.setSlideWidth);
+    window.removeEventListener("resize", this.setSliderDimensions);
+    window.removeEventListener("orientationchange", this.setSliderDimensions);
   }
 
   render() {
@@ -88,10 +106,12 @@ export default class GlamorousReactCarousel extends React.Component {
           /> 
           : null
         }
-        <div className="mex-slider-inner" style={this.innerWrapperStyle}>
+        <div className={`${innerView} mex-slider-inner`} style={this.innerWrapperStyle}>
           <Slides 
             slides={this.slides}
             slideCss={this.slideCss}
+            mobile={!this.showArrows}
+            position={this.state.positionCss}
           />
         </div>
       </div>
