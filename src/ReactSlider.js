@@ -3,13 +3,24 @@ import React from 'react';
 import Slides from './components/Slides';
 import Arrows from './components/Arrows';
 import { view } from './styles/glamorStyles';
-import { setSlideWidth, moveSlider } from './methods';
+import { setSlideWidth, moveSlider, mergeConfig } from './methods';
 
 const defaultConfig = {
-  slidesInMobileViewport: 1.5,
-  slidesInDesktopViewport: 2.5,
+  slidesInViewport: {
+    sm: 1.5,
+    md: 2.5,
+    lg: 3.5,
+    xl: 4.5,
+    xxl: 5.5
+  },
+  slideWidth: {
+    sm: null,
+    md: null,
+    lg: null,
+    xl: null,
+    xxl: null
+  },
   slideMargin: 10,
-  mobileBreakpoint: 1023,
   leftArrowClass: 'g72-arrow-thin-left',
   rightArrowClass: 'g72-arrow-thin-right',
   arrowColor: 'black',
@@ -22,7 +33,9 @@ const defaultConfig = {
 export default class GlamorousReactCarousel extends React.Component {
   constructor(props) {
     super(props);
-    this.config = Object.assign(defaultConfig, props.config || {});
+    this.config = mergeConfig(defaultConfig, props.config);
+
+    console.log('merged config', this.config);
     this.slides = props.slides || [];
     
     // Bind methods to instance.
@@ -33,13 +46,12 @@ export default class GlamorousReactCarousel extends React.Component {
     this.state = {
       slideWidth: 0,
       position: 0,
-      isMobile: false,
+      currentBreakpoint: 'lg',
     }
   }
 
   get showArrows() {
-    return (this.state.isMobile && this.config.showArrowsOnMobile) ||
-      (!this.state.isMobile && this.config.showArrowsOnDesktop);
+    return true;
   }
 
   get innerWrapperStyle() {

@@ -14,17 +14,13 @@ const pageStyle = css({
 
 
 const config = {
-  slidesInMobileViewport: 1.5,
-  slidesInDesktopViewport: 2.5,
-  slideMargin: 10,
-  mobileBreakpoint: 1023,
-  leftArrowClass: 'g72-arrow-thin-left',
-  rightArrowClass: 'g72-arrow-thin-right',
   arrowColor: 'black',
-  showArrowsOnMobile: false,
-  showArrowsOnDesktop: true,
-  slideDistanceOnClick: 2,
-  theme: 'light'
+  slidesInViewport: {
+    sm: 1.5
+  },
+  slideWidth: {
+    sm: null
+  }
 };
 
 
@@ -43,7 +39,7 @@ export default class Demo extends React.Component {
       <div className={`${pageStyle}`}>
         <div className="ncss-brand ncss-container fixed-fluid">
           <div className="ncss-row">
-            <div className="ncss-col-lg-6 ncss-col-md-6 ncss-col-sm-12">
+            <div className="ncss-col-sm-12">
               <ReactSlider config={config} slides={this.returnSlideArray()} />
             </div>
            </div>
