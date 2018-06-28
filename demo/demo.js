@@ -1,8 +1,7 @@
 import React from 'react';
 import { css } from 'glamor';
 import ReactSlider from '../index';
-import SlideItem from '../src/components/slide/SlideItem.class';
-import Slide from '../src/components/slide/Slide';
+import { AppCardData, AppCard } from './AppCard';
 
 const pageStyle = css({
   width: '100%',
@@ -16,30 +15,37 @@ const pageStyle = css({
 const config = {
   arrowColor: 'black',
   slidesInViewport: {
-    sm: 1.5
+    sm: 1.2
   },
   slideWidth: {
     sm: null
   }
 };
 
+const slides = [
+  new AppCardData(
+    './img/app_1.png',
+    'Nike App',
+    './img/img_1.png',
+    'Trending',
+    'Featured Story',
+    'Explore everything that Nike has to offer, tailored to you.'
+  )
+];
+
 
 export default class Demo extends React.Component {
 
   returnSlideArray() {
-    let slides = [];
-    for (let i = 1; i <= 6; i++) {
-      slides.push(new SlideItem(`./img/img_${i}.png`))
-    }
-    return slides.map(slideItem => <Slide slideItem={slideItem} />)
+    return slides.map(slideItem => <AppCard data={slideItem} />)
   }
 
   render() {
     return (
       <div className={`${pageStyle}`}>
-        <div className="ncss-brand ncss-container fixed-fluid">
+        <div className="ncss-base ncss-container fixed-fluid p4-sm">
           <div className="ncss-row">
-            <div className="ncss-col-sm-12">
+            <div className="ncss-col-sm-12 full">
               <ReactSlider config={config} slides={this.returnSlideArray()} />
             </div>
            </div>
