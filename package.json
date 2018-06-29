@@ -38,7 +38,7 @@
   "jest": {
     "collectCoverage": true,
     "collectCoverageFrom": [
-      "./src/GlamorousReactCarousel.js",
+      "./src/ReactSlider.js",
       "!coverage/**"
     ],
     "coverageReporters": [

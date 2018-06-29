@@ -21,12 +21,12 @@ const Arrows = ({
 
   return (
     <div className="arrows">
-      <div className={`${arrowContainer} ${arrowContainerLeft}`} 
+      <div className={`${arrowContainer} ${arrowContainerLeft} left-arrow`} 
         onClick={() => {click(false)}}
       >
         <div className={`${leftArrowClass} ${arrow} ${arrowColorClass()}`} style={leftArrowStyle}></div>
       </div>
-      <div className={`${arrowContainer} ${arrowContainerRight}`} 
+      <div className={`${arrowContainer} ${arrowContainerRight} right-arrow`} 
         onClick={() => {click(true)}}
       >
         <div className={`${rightArrowClass} ${arrow} ${arrowColorClass()}`} style={rightArrowStyle}></div>

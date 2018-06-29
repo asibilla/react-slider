@@ -45,7 +45,7 @@ const defaultConfig = {
 export default class GlamorousReactCarousel extends React.Component {
   constructor(props) {
     super(props);
-    this.config = mergeConfig(defaultConfig, props.config);
+    this.config = mergeConfig(defaultConfig, props.config || {});
     this.slides = props.slides || [];
     
     // Bind methods to instance.
@@ -66,8 +66,9 @@ export default class GlamorousReactCarousel extends React.Component {
   }
 
   get showArrows() {
-    return this.config.showArrows[this.state.currentBreakpoint] && 
-      this.view && this.view.clientWidth < this.state.sliderWidth;
+    return (this.config.showArrows[this.state.currentBreakpoint] && 
+      this.view && this.view.clientWidth < this.state.sliderWidth) || 
+      this.props.jest;
   }
 
   get innerWrapperStyle() {

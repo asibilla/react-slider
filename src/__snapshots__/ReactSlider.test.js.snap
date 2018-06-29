@@ -1,0 +1,2132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Click events work arrow click event 1`] = `
+<GlamorousReactCarousel
+  config={
+    Object {
+      "showArrows": Object {
+        "lg": true,
+        "md": true,
+        "sm": true,
+        "xl": true,
+        "xxl": true,
+      },
+    }
+  }
+  jest={true}
+  slides={
+    Array [
+      <AppCard
+        data={
+          AppCardData {
+            "appLogo": "./img/app_1.png",
+            "appTitle": "Nike App",
+            "footer": "Explore everything that Nike has to offer, tailored to you.",
+            "image": "./img/img_1.png",
+            "subtitle": "Featured Story",
+            "title": "Trending",
+          }
+        }
+      />,
+      <AppCard
+        data={
+          AppCardData {
+            "appLogo": "./img/app_2.png",
+            "appTitle": "Nike Run Club App",
+            "footer": "Find the motivation you need to run better and more often.",
+            "image": "./img/img_2.png",
+            "subtitle": "New Audio Guided Run",
+            "title": "Just Released",
+          }
+        }
+      />,
+      <AppCard
+        data={
+          AppCardData {
+            "appLogo": "./img/app_3.png",
+            "appTitle": "Nike Training Club App",
+            "footer": "Break a sweat to over 160 guided workouts.",
+            "image": "./img/img_3.png",
+            "subtitle": "Boxer Arms",
+            "title": "New Workout Collection",
+          }
+        }
+      />,
+    ]
+  }
+>
+  <div
+    className="css-1e4cq3h mex-slider-wrapper"
+  >
+    <Arrows
+      arrowColor="black"
+      click={[Function]}
+      leftArrowClass="g72-arrow-thin-left"
+      leftArrowStyle={Object {}}
+      rightArrowClass="g72-arrow-thin-right"
+      rightArrowStyle={
+        Object {
+          "cursor": "auto",
+          "opacity": "0.4",
+        }
+      }
+    >
+      <div
+        className="arrows"
+      >
+        <div
+          className="css-wku5bc css-nj4g8d left-arrow"
+          onClick={[Function]}
+        >
+          <div
+            className="g72-arrow-thin-left css-1w1txca text-color-black"
+            style={Object {}}
+          />
+        </div>
+        <div
+          className="css-wku5bc css-q2ki5z right-arrow"
+          onClick={[Function]}
+        >
+          <div
+            className="g72-arrow-thin-right css-1w1txca text-color-black"
+            style={
+              Object {
+                "cursor": "auto",
+                "opacity": "0.4",
+              }
+            }
+          />
+        </div>
+      </div>
+    </Arrows>
+    <div
+      className="css-rdsogp mex-slider-inner"
+      style={
+        Object {
+          "margin": "0 30px",
+          "width": "calc(100% - 60px)",
+        }
+      }
+    >
+      <Slides
+        mobile={false}
+        position={
+          Object {
+            "MozTansitionDuration": "500ms",
+            "MozTransform": "translate3d(-8.57142857142857px, 0px, 0px)",
+            "WebkitTransform": "translate3d(-8.57142857142857px, 0px, 0px)",
+            "WebkitTransitionDuration": "500ms",
+            "transform": "translate3d(-8.57142857142857px, 0px, 0px)",
+            "transitionDuration": "500ms",
+          }
+        }
+        slideCss={
+          Object {
+            "marginRight": "10px",
+            "width": -27.142857142857142,
+          }
+        }
+        slides={
+          Array [
+            <AppCard
+              data={
+                AppCardData {
+                  "appLogo": "./img/app_1.png",
+                  "appTitle": "Nike App",
+                  "footer": "Explore everything that Nike has to offer, tailored to you.",
+                  "image": "./img/img_1.png",
+                  "subtitle": "Featured Story",
+                  "title": "Trending",
+                }
+              }
+            />,
+            <AppCard
+              data={
+                AppCardData {
+                  "appLogo": "./img/app_2.png",
+                  "appTitle": "Nike Run Club App",
+                  "footer": "Find the motivation you need to run better and more often.",
+                  "image": "./img/img_2.png",
+                  "subtitle": "New Audio Guided Run",
+                  "title": "Just Released",
+                }
+              }
+            />,
+            <AppCard
+              data={
+                AppCardData {
+                  "appLogo": "./img/app_3.png",
+                  "appTitle": "Nike Training Club App",
+                  "footer": "Break a sweat to over 160 guided workouts.",
+                  "image": "./img/img_3.png",
+                  "subtitle": "Boxer Arms",
+                  "title": "New Workout Collection",
+                }
+              }
+            />,
+          ]
+        }
+      >
+        <div
+          className="mex-slider-slides"
+          style={
+            Object {
+              "MozTansitionDuration": "500ms",
+              "MozTransform": "translate3d(-8.57142857142857px, 0px, 0px)",
+              "WebkitTransform": "translate3d(-8.57142857142857px, 0px, 0px)",
+              "WebkitTransitionDuration": "500ms",
+              "transform": "translate3d(-8.57142857142857px, 0px, 0px)",
+              "transitionDuration": "500ms",
+            }
+          }
+        >
+          <div
+            className="css-4t1vl3 mex-slider-slide"
+            key="slide0"
+            style={
+              Object {
+                "marginRight": "10px",
+                "width": -27.142857142857142,
+              }
+            }
+          >
+            <AppCard
+              data={
+                AppCardData {
+                  "appLogo": "./img/app_1.png",
+                  "appTitle": "Nike App",
+                  "footer": "Explore everything that Nike has to offer, tailored to you.",
+                  "image": "./img/img_1.png",
+                  "subtitle": "Featured Story",
+                  "title": "Trending",
+                }
+              }
+            >
+              <div
+                className="ncss-container mb1-sm"
+              >
+                <div
+                  className="ncss-row"
+                >
+                  <div
+                    className="ncss-col-sm-12 p4-sm border-medium-grey"
+                  >
+                    <div
+                      className="ncss-row mb3-sm"
+                    >
+                      <div
+                        className="ncss-col-sm-2 va-sm-t"
+                      >
+                        <img
+                          className={
+                            Object {
+                              "data-css-17c8v6x": "",
+                            }
+                          }
+                          src="./img/app_1.png"
+                        />
+                      </div>
+                      <div
+                        className="ncss-col-sm-6 va-sm-t full"
+                      >
+                        <h2
+                          className="fs12-sm lh14-sm fs14-md lh-16-md u-bold"
+                        >
+                          Nike App
+                        </h2>
+                        <p
+                          className="fs12-sm lh14-sm fs14-md lh16-md text-color-grey"
+                        >
+                          Available in the App Store
+                        </p>
+                      </div>
+                      <div
+                        className="ncss-col-sm-4 va-sm-t ta-sm-r"
+                      >
+                        <button
+                          className="fs12-sm pt1-sm pr3-sm pb1-sm pl3-sm ncss-btn-border-medium-grey u-rounded"
+                          type="button"
+                        >
+                          Download
+                        </button>
+                      </div>
+                    </div>
+                    <div
+                      className="ncss-row mb3-sm"
+                    >
+                      <div
+                        className="ncss-col-sm-12"
+                      >
+                        <img
+                          className={
+                            Object {
+                              "data-css-63oe3q": "",
+                            }
+                          }
+                          src="./img/img_1.png"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      className="ncss-row mb4-sm"
+                    >
+                      <div
+                        className="ncss-col-sm-12"
+                      >
+                        <h1
+                          className="fs12-sm lh14-sm fs14-md lh-16-md"
+                        >
+                          Trending
+                        </h1>
+                        <p
+                          className="fs12-sm lh14-sm fs14-md lh-16-md text-color-grey"
+                        >
+                          Featured Story
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="ncss-row"
+                >
+                  <div
+                    className="css-1l9llol ncss-col-sm-12 p4-sm"
+                  >
+                    <p
+                      className="fs12-sm fs14-xl u-bold"
+                    >
+                      Explore everything that Nike has to offer, tailored to you.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </AppCard>
+          </div>
+          <div
+            className="css-4t1vl3 mex-slider-slide"
+            key="slide1"
+            style={
+              Object {
+                "marginRight": "10px",
+                "width": -27.142857142857142,
+              }
+            }
+          >
+            <AppCard
+              data={
+                AppCardData {
+                  "appLogo": "./img/app_2.png",
+                  "appTitle": "Nike Run Club App",
+                  "footer": "Find the motivation you need to run better and more often.",
+                  "image": "./img/img_2.png",
+                  "subtitle": "New Audio Guided Run",
+                  "title": "Just Released",
+                }
+              }
+            >
+              <div
+                className="ncss-container mb1-sm"
+              >
+                <div
+                  className="ncss-row"
+                >
+                  <div
+                    className="ncss-col-sm-12 p4-sm border-medium-grey"
+                  >
+                    <div
+                      className="ncss-row mb3-sm"
+                    >
+                      <div
+                        className="ncss-col-sm-2 va-sm-t"
+                      >
+                        <img
+                          className={
+                            Object {
+                              "data-css-17c8v6x": "",
+                            }
+                          }
+                          src="./img/app_2.png"
+                        />
+                      </div>
+                      <div
+                        className="ncss-col-sm-6 va-sm-t full"
+                      >
+                        <h2
+                          className="fs12-sm lh14-sm fs14-md lh-16-md u-bold"
+                        >
+                          Nike Run Club App
+                        </h2>
+                        <p
+                          className="fs12-sm lh14-sm fs14-md lh16-md text-color-grey"
+                        >
+                          Available in the App Store
+                        </p>
+                      </div>
+                      <div
+                        className="ncss-col-sm-4 va-sm-t ta-sm-r"
+                      >
+                        <button
+                          className="fs12-sm pt1-sm pr3-sm pb1-sm pl3-sm ncss-btn-border-medium-grey u-rounded"
+                          type="button"
+                        >
+                          Download
+                        </button>
+                      </div>
+                    </div>
+                    <div
+                      className="ncss-row mb3-sm"
+                    >
+                      <div
+                        className="ncss-col-sm-12"
+                      >
+                        <img
+                          className={
+                            Object {
+                              "data-css-63oe3q": "",
+                            }
+                          }
+                          src="./img/img_2.png"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      className="ncss-row mb4-sm"
+                    >
+                      <div
+                        className="ncss-col-sm-12"
+                      >
+                        <h1
+                          className="fs12-sm lh14-sm fs14-md lh-16-md"
+                        >
+                          Just Released
+                        </h1>
+                        <p
+                          className="fs12-sm lh14-sm fs14-md lh-16-md text-color-grey"
+                        >
+                          New Audio Guided Run
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="ncss-row"
+                >
+                  <div
+                    className="css-1l9llol ncss-col-sm-12 p4-sm"
+                  >
+                    <p
+                      className="fs12-sm fs14-xl u-bold"
+                    >
+                      Find the motivation you need to run better and more often.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </AppCard>
+          </div>
+          <div
+            className="css-4t1vl3 mex-slider-slide"
+            key="slide2"
+            style={
+              Object {
+                "marginRight": "10px",
+                "width": -27.142857142857142,
+              }
+            }
+          >
+            <AppCard
+              data={
+                AppCardData {
+                  "appLogo": "./img/app_3.png",
+                  "appTitle": "Nike Training Club App",
+                  "footer": "Break a sweat to over 160 guided workouts.",
+                  "image": "./img/img_3.png",
+                  "subtitle": "Boxer Arms",
+                  "title": "New Workout Collection",
+                }
+              }
+            >
+              <div
+                className="ncss-container mb1-sm"
+              >
+                <div
+                  className="ncss-row"
+                >
+                  <div
+                    className="ncss-col-sm-12 p4-sm border-medium-grey"
+                  >
+                    <div
+                      className="ncss-row mb3-sm"
+                    >
+                      <div
+                        className="ncss-col-sm-2 va-sm-t"
+                      >
+                        <img
+                          className={
+                            Object {
+                              "data-css-17c8v6x": "",
+                            }
+                          }
+                          src="./img/app_3.png"
+                        />
+                      </div>
+                      <div
+                        className="ncss-col-sm-6 va-sm-t full"
+                      >
+                        <h2
+                          className="fs12-sm lh14-sm fs14-md lh-16-md u-bold"
+                        >
+                          Nike Training Club App
+                        </h2>
+                        <p
+                          className="fs12-sm lh14-sm fs14-md lh16-md text-color-grey"
+                        >
+                          Available in the App Store
+                        </p>
+                      </div>
+                      <div
+                        className="ncss-col-sm-4 va-sm-t ta-sm-r"
+                      >
+                        <button
+                          className="fs12-sm pt1-sm pr3-sm pb1-sm pl3-sm ncss-btn-border-medium-grey u-rounded"
+                          type="button"
+                        >
+                          Download
+                        </button>
+                      </div>
+                    </div>
+                    <div
+                      className="ncss-row mb3-sm"
+                    >
+                      <div
+                        className="ncss-col-sm-12"
+                      >
+                        <img
+                          className={
+                            Object {
+                              "data-css-63oe3q": "",
+                            }
+                          }
+                          src="./img/img_3.png"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      className="ncss-row mb4-sm"
+                    >
+                      <div
+                        className="ncss-col-sm-12"
+                      >
+                        <h1
+                          className="fs12-sm lh14-sm fs14-md lh-16-md"
+                        >
+                          New Workout Collection
+                        </h1>
+                        <p
+                          className="fs12-sm lh14-sm fs14-md lh-16-md text-color-grey"
+                        >
+                          Boxer Arms
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="ncss-row"
+                >
+                  <div
+                    className="css-1l9llol ncss-col-sm-12 p4-sm"
+                  >
+                    <p
+                      className="fs12-sm fs14-xl u-bold"
+                    >
+                      Break a sweat to over 160 guided workouts.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </AppCard>
+          </div>
+        </div>
+      </Slides>
+    </div>
+  </div>
+</GlamorousReactCarousel>
+`;
+
+exports[`Click events work component renders 1`] = `
+<GlamorousReactCarousel
+  config={
+    Object {
+      "showArrows": Object {
+        "lg": true,
+        "md": true,
+        "sm": true,
+        "xl": true,
+        "xxl": true,
+      },
+    }
+  }
+  jest={true}
+  slides={
+    Array [
+      <AppCard
+        data={
+          AppCardData {
+            "appLogo": "./img/app_1.png",
+            "appTitle": "Nike App",
+            "footer": "Explore everything that Nike has to offer, tailored to you.",
+            "image": "./img/img_1.png",
+            "subtitle": "Featured Story",
+            "title": "Trending",
+          }
+        }
+      />,
+      <AppCard
+        data={
+          AppCardData {
+            "appLogo": "./img/app_2.png",
+            "appTitle": "Nike Run Club App",
+            "footer": "Find the motivation you need to run better and more often.",
+            "image": "./img/img_2.png",
+            "subtitle": "New Audio Guided Run",
+            "title": "Just Released",
+          }
+        }
+      />,
+      <AppCard
+        data={
+          AppCardData {
+            "appLogo": "./img/app_3.png",
+            "appTitle": "Nike Training Club App",
+            "footer": "Break a sweat to over 160 guided workouts.",
+            "image": "./img/img_3.png",
+            "subtitle": "Boxer Arms",
+            "title": "New Workout Collection",
+          }
+        }
+      />,
+    ]
+  }
+>
+  <div
+    className="css-1e4cq3h mex-slider-wrapper"
+  >
+    <Arrows
+      arrowColor="black"
+      click={[Function]}
+      leftArrowClass="g72-arrow-thin-left"
+      leftArrowStyle={
+        Object {
+          "cursor": "auto",
+          "opacity": "0.4",
+        }
+      }
+      rightArrowClass="g72-arrow-thin-right"
+      rightArrowStyle={Object {}}
+    >
+      <div
+        className="arrows"
+      >
+        <div
+          className="css-wku5bc css-nj4g8d left-arrow"
+          onClick={[Function]}
+        >
+          <div
+            className="g72-arrow-thin-left css-1w1txca text-color-black"
+            style={
+              Object {
+                "cursor": "auto",
+                "opacity": "0.4",
+              }
+            }
+          />
+        </div>
+        <div
+          className="css-wku5bc css-q2ki5z right-arrow"
+          onClick={[Function]}
+        >
+          <div
+            className="g72-arrow-thin-right css-1w1txca text-color-black"
+            style={Object {}}
+          />
+        </div>
+      </div>
+    </Arrows>
+    <div
+      className="css-rdsogp mex-slider-inner"
+      style={
+        Object {
+          "margin": "0 30px",
+          "width": "calc(100% - 60px)",
+        }
+      }
+    >
+      <Slides
+        mobile={false}
+        position={
+          Object {
+            "MozTansitionDuration": "0ms",
+            "MozTransform": "translate3d(0px, 0px, 0px)",
+            "WebkitTransform": "translate3d(0px, 0px, 0px)",
+            "WebkitTransitionDuration": "0ms",
+            "transform": "translate3d(0px, 0px, 0px)",
+            "transitionDuration": "0ms",
+          }
+        }
+        slideCss={
+          Object {
+            "marginRight": "10px",
+            "width": -27.142857142857142,
+          }
+        }
+        slides={
+          Array [
+            <AppCard
+              data={
+                AppCardData {
+                  "appLogo": "./img/app_1.png",
+                  "appTitle": "Nike App",
+                  "footer": "Explore everything that Nike has to offer, tailored to you.",
+                  "image": "./img/img_1.png",
+                  "subtitle": "Featured Story",
+                  "title": "Trending",
+                }
+              }
+            />,
+            <AppCard
+              data={
+                AppCardData {
+                  "appLogo": "./img/app_2.png",
+                  "appTitle": "Nike Run Club App",
+                  "footer": "Find the motivation you need to run better and more often.",
+                  "image": "./img/img_2.png",
+                  "subtitle": "New Audio Guided Run",
+                  "title": "Just Released",
+                }
+              }
+            />,
+            <AppCard
+              data={
+                AppCardData {
+                  "appLogo": "./img/app_3.png",
+                  "appTitle": "Nike Training Club App",
+                  "footer": "Break a sweat to over 160 guided workouts.",
+                  "image": "./img/img_3.png",
+                  "subtitle": "Boxer Arms",
+                  "title": "New Workout Collection",
+                }
+              }
+            />,
+          ]
+        }
+      >
+        <div
+          className="mex-slider-slides"
+          style={
+            Object {
+              "MozTansitionDuration": "0ms",
+              "MozTransform": "translate3d(0px, 0px, 0px)",
+              "WebkitTransform": "translate3d(0px, 0px, 0px)",
+              "WebkitTransitionDuration": "0ms",
+              "transform": "translate3d(0px, 0px, 0px)",
+              "transitionDuration": "0ms",
+            }
+          }
+        >
+          <div
+            className="css-4t1vl3 mex-slider-slide"
+            key="slide0"
+            style={
+              Object {
+                "marginRight": "10px",
+                "width": -27.142857142857142,
+              }
+            }
+          >
+            <AppCard
+              data={
+                AppCardData {
+                  "appLogo": "./img/app_1.png",
+                  "appTitle": "Nike App",
+                  "footer": "Explore everything that Nike has to offer, tailored to you.",
+                  "image": "./img/img_1.png",
+                  "subtitle": "Featured Story",
+                  "title": "Trending",
+                }
+              }
+            >
+              <div
+                className="ncss-container mb1-sm"
+              >
+                <div
+                  className="ncss-row"
+                >
+                  <div
+                    className="ncss-col-sm-12 p4-sm border-medium-grey"
+                  >
+                    <div
+                      className="ncss-row mb3-sm"
+                    >
+                      <div
+                        className="ncss-col-sm-2 va-sm-t"
+                      >
+                        <img
+                          className={
+                            Object {
+                              "data-css-17c8v6x": "",
+                            }
+                          }
+                          src="./img/app_1.png"
+                        />
+                      </div>
+                      <div
+                        className="ncss-col-sm-6 va-sm-t full"
+                      >
+                        <h2
+                          className="fs12-sm lh14-sm fs14-md lh-16-md u-bold"
+                        >
+                          Nike App
+                        </h2>
+                        <p
+                          className="fs12-sm lh14-sm fs14-md lh16-md text-color-grey"
+                        >
+                          Available in the App Store
+                        </p>
+                      </div>
+                      <div
+                        className="ncss-col-sm-4 va-sm-t ta-sm-r"
+                      >
+                        <button
+                          className="fs12-sm pt1-sm pr3-sm pb1-sm pl3-sm ncss-btn-border-medium-grey u-rounded"
+                          type="button"
+                        >
+                          Download
+                        </button>
+                      </div>
+                    </div>
+                    <div
+                      className="ncss-row mb3-sm"
+                    >
+                      <div
+                        className="ncss-col-sm-12"
+                      >
+                        <img
+                          className={
+                            Object {
+                              "data-css-63oe3q": "",
+                            }
+                          }
+                          src="./img/img_1.png"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      className="ncss-row mb4-sm"
+                    >
+                      <div
+                        className="ncss-col-sm-12"
+                      >
+                        <h1
+                          className="fs12-sm lh14-sm fs14-md lh-16-md"
+                        >
+                          Trending
+                        </h1>
+                        <p
+                          className="fs12-sm lh14-sm fs14-md lh-16-md text-color-grey"
+                        >
+                          Featured Story
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="ncss-row"
+                >
+                  <div
+                    className="css-1l9llol ncss-col-sm-12 p4-sm"
+                  >
+                    <p
+                      className="fs12-sm fs14-xl u-bold"
+                    >
+                      Explore everything that Nike has to offer, tailored to you.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </AppCard>
+          </div>
+          <div
+            className="css-4t1vl3 mex-slider-slide"
+            key="slide1"
+            style={
+              Object {
+                "marginRight": "10px",
+                "width": -27.142857142857142,
+              }
+            }
+          >
+            <AppCard
+              data={
+                AppCardData {
+                  "appLogo": "./img/app_2.png",
+                  "appTitle": "Nike Run Club App",
+                  "footer": "Find the motivation you need to run better and more often.",
+                  "image": "./img/img_2.png",
+                  "subtitle": "New Audio Guided Run",
+                  "title": "Just Released",
+                }
+              }
+            >
+              <div
+                className="ncss-container mb1-sm"
+              >
+                <div
+                  className="ncss-row"
+                >
+                  <div
+                    className="ncss-col-sm-12 p4-sm border-medium-grey"
+                  >
+                    <div
+                      className="ncss-row mb3-sm"
+                    >
+                      <div
+                        className="ncss-col-sm-2 va-sm-t"
+                      >
+                        <img
+                          className={
+                            Object {
+                              "data-css-17c8v6x": "",
+                            }
+                          }
+                          src="./img/app_2.png"
+                        />
+                      </div>
+                      <div
+                        className="ncss-col-sm-6 va-sm-t full"
+                      >
+                        <h2
+                          className="fs12-sm lh14-sm fs14-md lh-16-md u-bold"
+                        >
+                          Nike Run Club App
+                        </h2>
+                        <p
+                          className="fs12-sm lh14-sm fs14-md lh16-md text-color-grey"
+                        >
+                          Available in the App Store
+                        </p>
+                      </div>
+                      <div
+                        className="ncss-col-sm-4 va-sm-t ta-sm-r"
+                      >
+                        <button
+                          className="fs12-sm pt1-sm pr3-sm pb1-sm pl3-sm ncss-btn-border-medium-grey u-rounded"
+                          type="button"
+                        >
+                          Download
+                        </button>
+                      </div>
+                    </div>
+                    <div
+                      className="ncss-row mb3-sm"
+                    >
+                      <div
+                        className="ncss-col-sm-12"
+                      >
+                        <img
+                          className={
+                            Object {
+                              "data-css-63oe3q": "",
+                            }
+                          }
+                          src="./img/img_2.png"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      className="ncss-row mb4-sm"
+                    >
+                      <div
+                        className="ncss-col-sm-12"
+                      >
+                        <h1
+                          className="fs12-sm lh14-sm fs14-md lh-16-md"
+                        >
+                          Just Released
+                        </h1>
+                        <p
+                          className="fs12-sm lh14-sm fs14-md lh-16-md text-color-grey"
+                        >
+                          New Audio Guided Run
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="ncss-row"
+                >
+                  <div
+                    className="css-1l9llol ncss-col-sm-12 p4-sm"
+                  >
+                    <p
+                      className="fs12-sm fs14-xl u-bold"
+                    >
+                      Find the motivation you need to run better and more often.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </AppCard>
+          </div>
+          <div
+            className="css-4t1vl3 mex-slider-slide"
+            key="slide2"
+            style={
+              Object {
+                "marginRight": "10px",
+                "width": -27.142857142857142,
+              }
+            }
+          >
+            <AppCard
+              data={
+                AppCardData {
+                  "appLogo": "./img/app_3.png",
+                  "appTitle": "Nike Training Club App",
+                  "footer": "Break a sweat to over 160 guided workouts.",
+                  "image": "./img/img_3.png",
+                  "subtitle": "Boxer Arms",
+                  "title": "New Workout Collection",
+                }
+              }
+            >
+              <div
+                className="ncss-container mb1-sm"
+              >
+                <div
+                  className="ncss-row"
+                >
+                  <div
+                    className="ncss-col-sm-12 p4-sm border-medium-grey"
+                  >
+                    <div
+                      className="ncss-row mb3-sm"
+                    >
+                      <div
+                        className="ncss-col-sm-2 va-sm-t"
+                      >
+                        <img
+                          className={
+                            Object {
+                              "data-css-17c8v6x": "",
+                            }
+                          }
+                          src="./img/app_3.png"
+                        />
+                      </div>
+                      <div
+                        className="ncss-col-sm-6 va-sm-t full"
+                      >
+                        <h2
+                          className="fs12-sm lh14-sm fs14-md lh-16-md u-bold"
+                        >
+                          Nike Training Club App
+                        </h2>
+                        <p
+                          className="fs12-sm lh14-sm fs14-md lh16-md text-color-grey"
+                        >
+                          Available in the App Store
+                        </p>
+                      </div>
+                      <div
+                        className="ncss-col-sm-4 va-sm-t ta-sm-r"
+                      >
+                        <button
+                          className="fs12-sm pt1-sm pr3-sm pb1-sm pl3-sm ncss-btn-border-medium-grey u-rounded"
+                          type="button"
+                        >
+                          Download
+                        </button>
+                      </div>
+                    </div>
+                    <div
+                      className="ncss-row mb3-sm"
+                    >
+                      <div
+                        className="ncss-col-sm-12"
+                      >
+                        <img
+                          className={
+                            Object {
+                              "data-css-63oe3q": "",
+                            }
+                          }
+                          src="./img/img_3.png"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      className="ncss-row mb4-sm"
+                    >
+                      <div
+                        className="ncss-col-sm-12"
+                      >
+                        <h1
+                          className="fs12-sm lh14-sm fs14-md lh-16-md"
+                        >
+                          New Workout Collection
+                        </h1>
+                        <p
+                          className="fs12-sm lh14-sm fs14-md lh-16-md text-color-grey"
+                        >
+                          Boxer Arms
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="ncss-row"
+                >
+                  <div
+                    className="css-1l9llol ncss-col-sm-12 p4-sm"
+                  >
+                    <p
+                      className="fs12-sm fs14-xl u-bold"
+                    >
+                      Break a sweat to over 160 guided workouts.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </AppCard>
+          </div>
+        </div>
+      </Slides>
+    </div>
+  </div>
+</GlamorousReactCarousel>
+`;
+
+exports[`Component does not break if no slides component renders 1`] = `<GlamorousReactCarousel />`;
+
+exports[`Renders with custom config component renders 1`] = `
+<GlamorousReactCarousel
+  config={
+    Object {
+      "arrowColor": "blue",
+      "showArrows": Object {
+        "lg": false,
+        "md": false,
+        "sm": false,
+        "xl": false,
+        "xxl": false,
+      },
+      "slideWidth": Object {
+        "lg": 200,
+        "md": 150,
+        "sm": 100,
+      },
+    }
+  }
+  slides={
+    Array [
+      <AppCard
+        data={
+          AppCardData {
+            "appLogo": "./img/app_1.png",
+            "appTitle": "Nike App",
+            "footer": "Explore everything that Nike has to offer, tailored to you.",
+            "image": "./img/img_1.png",
+            "subtitle": "Featured Story",
+            "title": "Trending",
+          }
+        }
+      />,
+      <AppCard
+        data={
+          AppCardData {
+            "appLogo": "./img/app_2.png",
+            "appTitle": "Nike Run Club App",
+            "footer": "Find the motivation you need to run better and more often.",
+            "image": "./img/img_2.png",
+            "subtitle": "New Audio Guided Run",
+            "title": "Just Released",
+          }
+        }
+      />,
+      <AppCard
+        data={
+          AppCardData {
+            "appLogo": "./img/app_3.png",
+            "appTitle": "Nike Training Club App",
+            "footer": "Break a sweat to over 160 guided workouts.",
+            "image": "./img/img_3.png",
+            "subtitle": "Boxer Arms",
+            "title": "New Workout Collection",
+          }
+        }
+      />,
+    ]
+  }
+>
+  <div
+    className="css-1e4cq3h mex-slider-wrapper"
+  >
+    <div
+      className="css-rdsogp mex-slider-inner"
+      style={
+        Object {
+          "width": "100%",
+        }
+      }
+    >
+      <Slides
+        mobile={true}
+        position={
+          Object {
+            "MozTansitionDuration": "0ms",
+            "MozTransform": "translate3d(0px, 0px, 0px)",
+            "WebkitTransform": "translate3d(0px, 0px, 0px)",
+            "WebkitTransitionDuration": "0ms",
+            "transform": "translate3d(0px, 0px, 0px)",
+            "transitionDuration": "0ms",
+          }
+        }
+        slideCss={
+          Object {
+            "marginRight": "10px",
+            "width": 200,
+          }
+        }
+        slides={
+          Array [
+            <AppCard
+              data={
+                AppCardData {
+                  "appLogo": "./img/app_1.png",
+                  "appTitle": "Nike App",
+                  "footer": "Explore everything that Nike has to offer, tailored to you.",
+                  "image": "./img/img_1.png",
+                  "subtitle": "Featured Story",
+                  "title": "Trending",
+                }
+              }
+            />,
+            <AppCard
+              data={
+                AppCardData {
+                  "appLogo": "./img/app_2.png",
+                  "appTitle": "Nike Run Club App",
+                  "footer": "Find the motivation you need to run better and more often.",
+                  "image": "./img/img_2.png",
+                  "subtitle": "New Audio Guided Run",
+                  "title": "Just Released",
+                }
+              }
+            />,
+            <AppCard
+              data={
+                AppCardData {
+                  "appLogo": "./img/app_3.png",
+                  "appTitle": "Nike Training Club App",
+                  "footer": "Break a sweat to over 160 guided workouts.",
+                  "image": "./img/img_3.png",
+                  "subtitle": "Boxer Arms",
+                  "title": "New Workout Collection",
+                }
+              }
+            />,
+          ]
+        }
+      >
+        <div
+          className="mex-slider-slides"
+          style={
+            Object {
+              "WebkitOverflowScrolling": "touch",
+              "overflow": "scroll",
+              "overflowScrolling": "touch",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="css-4t1vl3 mex-slider-slide"
+            key="slide0"
+            style={
+              Object {
+                "marginRight": "10px",
+                "width": 200,
+              }
+            }
+          >
+            <AppCard
+              data={
+                AppCardData {
+                  "appLogo": "./img/app_1.png",
+                  "appTitle": "Nike App",
+                  "footer": "Explore everything that Nike has to offer, tailored to you.",
+                  "image": "./img/img_1.png",
+                  "subtitle": "Featured Story",
+                  "title": "Trending",
+                }
+              }
+            >
+              <div
+                className="ncss-container mb1-sm"
+              >
+                <div
+                  className="ncss-row"
+                >
+                  <div
+                    className="ncss-col-sm-12 p4-sm border-medium-grey"
+                  >
+                    <div
+                      className="ncss-row mb3-sm"
+                    >
+                      <div
+                        className="ncss-col-sm-2 va-sm-t"
+                      >
+                        <img
+                          className={
+                            Object {
+                              "data-css-17c8v6x": "",
+                            }
+                          }
+                          src="./img/app_1.png"
+                        />
+                      </div>
+                      <div
+                        className="ncss-col-sm-6 va-sm-t full"
+                      >
+                        <h2
+                          className="fs12-sm lh14-sm fs14-md lh-16-md u-bold"
+                        >
+                          Nike App
+                        </h2>
+                        <p
+                          className="fs12-sm lh14-sm fs14-md lh16-md text-color-grey"
+                        >
+                          Available in the App Store
+                        </p>
+                      </div>
+                      <div
+                        className="ncss-col-sm-4 va-sm-t ta-sm-r"
+                      >
+                        <button
+                          className="fs12-sm pt1-sm pr3-sm pb1-sm pl3-sm ncss-btn-border-medium-grey u-rounded"
+                          type="button"
+                        >
+                          Download
+                        </button>
+                      </div>
+                    </div>
+                    <div
+                      className="ncss-row mb3-sm"
+                    >
+                      <div
+                        className="ncss-col-sm-12"
+                      >
+                        <img
+                          className={
+                            Object {
+                              "data-css-63oe3q": "",
+                            }
+                          }
+                          src="./img/img_1.png"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      className="ncss-row mb4-sm"
+                    >
+                      <div
+                        className="ncss-col-sm-12"
+                      >
+                        <h1
+                          className="fs12-sm lh14-sm fs14-md lh-16-md"
+                        >
+                          Trending
+                        </h1>
+                        <p
+                          className="fs12-sm lh14-sm fs14-md lh-16-md text-color-grey"
+                        >
+                          Featured Story
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="ncss-row"
+                >
+                  <div
+                    className="css-1l9llol ncss-col-sm-12 p4-sm"
+                  >
+                    <p
+                      className="fs12-sm fs14-xl u-bold"
+                    >
+                      Explore everything that Nike has to offer, tailored to you.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </AppCard>
+          </div>
+          <div
+            className="css-4t1vl3 mex-slider-slide"
+            key="slide1"
+            style={
+              Object {
+                "marginRight": "10px",
+                "width": 200,
+              }
+            }
+          >
+            <AppCard
+              data={
+                AppCardData {
+                  "appLogo": "./img/app_2.png",
+                  "appTitle": "Nike Run Club App",
+                  "footer": "Find the motivation you need to run better and more often.",
+                  "image": "./img/img_2.png",
+                  "subtitle": "New Audio Guided Run",
+                  "title": "Just Released",
+                }
+              }
+            >
+              <div
+                className="ncss-container mb1-sm"
+              >
+                <div
+                  className="ncss-row"
+                >
+                  <div
+                    className="ncss-col-sm-12 p4-sm border-medium-grey"
+                  >
+                    <div
+                      className="ncss-row mb3-sm"
+                    >
+                      <div
+                        className="ncss-col-sm-2 va-sm-t"
+                      >
+                        <img
+                          className={
+                            Object {
+                              "data-css-17c8v6x": "",
+                            }
+                          }
+                          src="./img/app_2.png"
+                        />
+                      </div>
+                      <div
+                        className="ncss-col-sm-6 va-sm-t full"
+                      >
+                        <h2
+                          className="fs12-sm lh14-sm fs14-md lh-16-md u-bold"
+                        >
+                          Nike Run Club App
+                        </h2>
+                        <p
+                          className="fs12-sm lh14-sm fs14-md lh16-md text-color-grey"
+                        >
+                          Available in the App Store
+                        </p>
+                      </div>
+                      <div
+                        className="ncss-col-sm-4 va-sm-t ta-sm-r"
+                      >
+                        <button
+                          className="fs12-sm pt1-sm pr3-sm pb1-sm pl3-sm ncss-btn-border-medium-grey u-rounded"
+                          type="button"
+                        >
+                          Download
+                        </button>
+                      </div>
+                    </div>
+                    <div
+                      className="ncss-row mb3-sm"
+                    >
+                      <div
+                        className="ncss-col-sm-12"
+                      >
+                        <img
+                          className={
+                            Object {
+                              "data-css-63oe3q": "",
+                            }
+                          }
+                          src="./img/img_2.png"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      className="ncss-row mb4-sm"
+                    >
+                      <div
+                        className="ncss-col-sm-12"
+                      >
+                        <h1
+                          className="fs12-sm lh14-sm fs14-md lh-16-md"
+                        >
+                          Just Released
+                        </h1>
+                        <p
+                          className="fs12-sm lh14-sm fs14-md lh-16-md text-color-grey"
+                        >
+                          New Audio Guided Run
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="ncss-row"
+                >
+                  <div
+                    className="css-1l9llol ncss-col-sm-12 p4-sm"
+                  >
+                    <p
+                      className="fs12-sm fs14-xl u-bold"
+                    >
+                      Find the motivation you need to run better and more often.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </AppCard>
+          </div>
+          <div
+            className="css-4t1vl3 mex-slider-slide"
+            key="slide2"
+            style={
+              Object {
+                "marginRight": "10px",
+                "width": 200,
+              }
+            }
+          >
+            <AppCard
+              data={
+                AppCardData {
+                  "appLogo": "./img/app_3.png",
+                  "appTitle": "Nike Training Club App",
+                  "footer": "Break a sweat to over 160 guided workouts.",
+                  "image": "./img/img_3.png",
+                  "subtitle": "Boxer Arms",
+                  "title": "New Workout Collection",
+                }
+              }
+            >
+              <div
+                className="ncss-container mb1-sm"
+              >
+                <div
+                  className="ncss-row"
+                >
+                  <div
+                    className="ncss-col-sm-12 p4-sm border-medium-grey"
+                  >
+                    <div
+                      className="ncss-row mb3-sm"
+                    >
+                      <div
+                        className="ncss-col-sm-2 va-sm-t"
+                      >
+                        <img
+                          className={
+                            Object {
+                              "data-css-17c8v6x": "",
+                            }
+                          }
+                          src="./img/app_3.png"
+                        />
+                      </div>
+                      <div
+                        className="ncss-col-sm-6 va-sm-t full"
+                      >
+                        <h2
+                          className="fs12-sm lh14-sm fs14-md lh-16-md u-bold"
+                        >
+                          Nike Training Club App
+                        </h2>
+                        <p
+                          className="fs12-sm lh14-sm fs14-md lh16-md text-color-grey"
+                        >
+                          Available in the App Store
+                        </p>
+                      </div>
+                      <div
+                        className="ncss-col-sm-4 va-sm-t ta-sm-r"
+                      >
+                        <button
+                          className="fs12-sm pt1-sm pr3-sm pb1-sm pl3-sm ncss-btn-border-medium-grey u-rounded"
+                          type="button"
+                        >
+                          Download
+                        </button>
+                      </div>
+                    </div>
+                    <div
+                      className="ncss-row mb3-sm"
+                    >
+                      <div
+                        className="ncss-col-sm-12"
+                      >
+                        <img
+                          className={
+                            Object {
+                              "data-css-63oe3q": "",
+                            }
+                          }
+                          src="./img/img_3.png"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      className="ncss-row mb4-sm"
+                    >
+                      <div
+                        className="ncss-col-sm-12"
+                      >
+                        <h1
+                          className="fs12-sm lh14-sm fs14-md lh-16-md"
+                        >
+                          New Workout Collection
+                        </h1>
+                        <p
+                          className="fs12-sm lh14-sm fs14-md lh-16-md text-color-grey"
+                        >
+                          Boxer Arms
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="ncss-row"
+                >
+                  <div
+                    className="css-1l9llol ncss-col-sm-12 p4-sm"
+                  >
+                    <p
+                      className="fs12-sm fs14-xl u-bold"
+                    >
+                      Break a sweat to over 160 guided workouts.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </AppCard>
+          </div>
+        </div>
+      </Slides>
+    </div>
+  </div>
+</GlamorousReactCarousel>
+`;
+
+exports[`Renders with default config. component renders 1`] = `
+<GlamorousReactCarousel
+  slides={
+    Array [
+      <AppCard
+        data={
+          AppCardData {
+            "appLogo": "./img/app_1.png",
+            "appTitle": "Nike App",
+            "footer": "Explore everything that Nike has to offer, tailored to you.",
+            "image": "./img/img_1.png",
+            "subtitle": "Featured Story",
+            "title": "Trending",
+          }
+        }
+      />,
+      <AppCard
+        data={
+          AppCardData {
+            "appLogo": "./img/app_2.png",
+            "appTitle": "Nike Run Club App",
+            "footer": "Find the motivation you need to run better and more often.",
+            "image": "./img/img_2.png",
+            "subtitle": "New Audio Guided Run",
+            "title": "Just Released",
+          }
+        }
+      />,
+      <AppCard
+        data={
+          AppCardData {
+            "appLogo": "./img/app_3.png",
+            "appTitle": "Nike Training Club App",
+            "footer": "Break a sweat to over 160 guided workouts.",
+            "image": "./img/img_3.png",
+            "subtitle": "Boxer Arms",
+            "title": "New Workout Collection",
+          }
+        }
+      />,
+    ]
+  }
+>
+  <div
+    className="css-1e4cq3h mex-slider-wrapper"
+  >
+    <div
+      className="css-rdsogp mex-slider-inner"
+      style={
+        Object {
+          "width": "100%",
+        }
+      }
+    >
+      <Slides
+        mobile={true}
+        position={
+          Object {
+            "MozTansitionDuration": "0ms",
+            "MozTransform": "translate3d(0px, 0px, 0px)",
+            "WebkitTransform": "translate3d(0px, 0px, 0px)",
+            "WebkitTransitionDuration": "0ms",
+            "transform": "translate3d(0px, 0px, 0px)",
+            "transitionDuration": "0ms",
+          }
+        }
+        slideCss={
+          Object {
+            "marginRight": "10px",
+            "width": -10,
+          }
+        }
+        slides={
+          Array [
+            <AppCard
+              data={
+                AppCardData {
+                  "appLogo": "./img/app_1.png",
+                  "appTitle": "Nike App",
+                  "footer": "Explore everything that Nike has to offer, tailored to you.",
+                  "image": "./img/img_1.png",
+                  "subtitle": "Featured Story",
+                  "title": "Trending",
+                }
+              }
+            />,
+            <AppCard
+              data={
+                AppCardData {
+                  "appLogo": "./img/app_2.png",
+                  "appTitle": "Nike Run Club App",
+                  "footer": "Find the motivation you need to run better and more often.",
+                  "image": "./img/img_2.png",
+                  "subtitle": "New Audio Guided Run",
+                  "title": "Just Released",
+                }
+              }
+            />,
+            <AppCard
+              data={
+                AppCardData {
+                  "appLogo": "./img/app_3.png",
+                  "appTitle": "Nike Training Club App",
+                  "footer": "Break a sweat to over 160 guided workouts.",
+                  "image": "./img/img_3.png",
+                  "subtitle": "Boxer Arms",
+                  "title": "New Workout Collection",
+                }
+              }
+            />,
+          ]
+        }
+      >
+        <div
+          className="mex-slider-slides"
+          style={
+            Object {
+              "WebkitOverflowScrolling": "touch",
+              "overflow": "scroll",
+              "overflowScrolling": "touch",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="css-4t1vl3 mex-slider-slide"
+            key="slide0"
+            style={
+              Object {
+                "marginRight": "10px",
+                "width": -10,
+              }
+            }
+          >
+            <AppCard
+              data={
+                AppCardData {
+                  "appLogo": "./img/app_1.png",
+                  "appTitle": "Nike App",
+                  "footer": "Explore everything that Nike has to offer, tailored to you.",
+                  "image": "./img/img_1.png",
+                  "subtitle": "Featured Story",
+                  "title": "Trending",
+                }
+              }
+            >
+              <div
+                className="ncss-container mb1-sm"
+              >
+                <div
+                  className="ncss-row"
+                >
+                  <div
+                    className="ncss-col-sm-12 p4-sm border-medium-grey"
+                  >
+                    <div
+                      className="ncss-row mb3-sm"
+                    >
+                      <div
+                        className="ncss-col-sm-2 va-sm-t"
+                      >
+                        <img
+                          className={
+                            Object {
+                              "data-css-17c8v6x": "",
+                            }
+                          }
+                          src="./img/app_1.png"
+                        />
+                      </div>
+                      <div
+                        className="ncss-col-sm-6 va-sm-t full"
+                      >
+                        <h2
+                          className="fs12-sm lh14-sm fs14-md lh-16-md u-bold"
+                        >
+                          Nike App
+                        </h2>
+                        <p
+                          className="fs12-sm lh14-sm fs14-md lh16-md text-color-grey"
+                        >
+                          Available in the App Store
+                        </p>
+                      </div>
+                      <div
+                        className="ncss-col-sm-4 va-sm-t ta-sm-r"
+                      >
+                        <button
+                          className="fs12-sm pt1-sm pr3-sm pb1-sm pl3-sm ncss-btn-border-medium-grey u-rounded"
+                          type="button"
+                        >
+                          Download
+                        </button>
+                      </div>
+                    </div>
+                    <div
+                      className="ncss-row mb3-sm"
+                    >
+                      <div
+                        className="ncss-col-sm-12"
+                      >
+                        <img
+                          className={
+                            Object {
+                              "data-css-63oe3q": "",
+                            }
+                          }
+                          src="./img/img_1.png"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      className="ncss-row mb4-sm"
+                    >
+                      <div
+                        className="ncss-col-sm-12"
+                      >
+                        <h1
+                          className="fs12-sm lh14-sm fs14-md lh-16-md"
+                        >
+                          Trending
+                        </h1>
+                        <p
+                          className="fs12-sm lh14-sm fs14-md lh-16-md text-color-grey"
+                        >
+                          Featured Story
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="ncss-row"
+                >
+                  <div
+                    className="css-1l9llol ncss-col-sm-12 p4-sm"
+                  >
+                    <p
+                      className="fs12-sm fs14-xl u-bold"
+                    >
+                      Explore everything that Nike has to offer, tailored to you.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </AppCard>
+          </div>
+          <div
+            className="css-4t1vl3 mex-slider-slide"
+            key="slide1"
+            style={
+              Object {
+                "marginRight": "10px",
+                "width": -10,
+              }
+            }
+          >
+            <AppCard
+              data={
+                AppCardData {
+                  "appLogo": "./img/app_2.png",
+                  "appTitle": "Nike Run Club App",
+                  "footer": "Find the motivation you need to run better and more often.",
+                  "image": "./img/img_2.png",
+                  "subtitle": "New Audio Guided Run",
+                  "title": "Just Released",
+                }
+              }
+            >
+              <div
+                className="ncss-container mb1-sm"
+              >
+                <div
+                  className="ncss-row"
+                >
+                  <div
+                    className="ncss-col-sm-12 p4-sm border-medium-grey"
+                  >
+                    <div
+                      className="ncss-row mb3-sm"
+                    >
+                      <div
+                        className="ncss-col-sm-2 va-sm-t"
+                      >
+                        <img
+                          className={
+                            Object {
+                              "data-css-17c8v6x": "",
+                            }
+                          }
+                          src="./img/app_2.png"
+                        />
+                      </div>
+                      <div
+                        className="ncss-col-sm-6 va-sm-t full"
+                      >
+                        <h2
+                          className="fs12-sm lh14-sm fs14-md lh-16-md u-bold"
+                        >
+                          Nike Run Club App
+                        </h2>
+                        <p
+                          className="fs12-sm lh14-sm fs14-md lh16-md text-color-grey"
+                        >
+                          Available in the App Store
+                        </p>
+                      </div>
+                      <div
+                        className="ncss-col-sm-4 va-sm-t ta-sm-r"
+                      >
+                        <button
+                          className="fs12-sm pt1-sm pr3-sm pb1-sm pl3-sm ncss-btn-border-medium-grey u-rounded"
+                          type="button"
+                        >
+                          Download
+                        </button>
+                      </div>
+                    </div>
+                    <div
+                      className="ncss-row mb3-sm"
+                    >
+                      <div
+                        className="ncss-col-sm-12"
+                      >
+                        <img
+                          className={
+                            Object {
+                              "data-css-63oe3q": "",
+                            }
+                          }
+                          src="./img/img_2.png"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      className="ncss-row mb4-sm"
+                    >
+                      <div
+                        className="ncss-col-sm-12"
+                      >
+                        <h1
+                          className="fs12-sm lh14-sm fs14-md lh-16-md"
+                        >
+                          Just Released
+                        </h1>
+                        <p
+                          className="fs12-sm lh14-sm fs14-md lh-16-md text-color-grey"
+                        >
+                          New Audio Guided Run
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="ncss-row"
+                >
+                  <div
+                    className="css-1l9llol ncss-col-sm-12 p4-sm"
+                  >
+                    <p
+                      className="fs12-sm fs14-xl u-bold"
+                    >
+                      Find the motivation you need to run better and more often.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </AppCard>
+          </div>
+          <div
+            className="css-4t1vl3 mex-slider-slide"
+            key="slide2"
+            style={
+              Object {
+                "marginRight": "10px",
+                "width": -10,
+              }
+            }
+          >
+            <AppCard
+              data={
+                AppCardData {
+                  "appLogo": "./img/app_3.png",
+                  "appTitle": "Nike Training Club App",
+                  "footer": "Break a sweat to over 160 guided workouts.",
+                  "image": "./img/img_3.png",
+                  "subtitle": "Boxer Arms",
+                  "title": "New Workout Collection",
+                }
+              }
+            >
+              <div
+                className="ncss-container mb1-sm"
+              >
+                <div
+                  className="ncss-row"
+                >
+                  <div
+                    className="ncss-col-sm-12 p4-sm border-medium-grey"
+                  >
+                    <div
+                      className="ncss-row mb3-sm"
+                    >
+                      <div
+                        className="ncss-col-sm-2 va-sm-t"
+                      >
+                        <img
+                          className={
+                            Object {
+                              "data-css-17c8v6x": "",
+                            }
+                          }
+                          src="./img/app_3.png"
+                        />
+                      </div>
+                      <div
+                        className="ncss-col-sm-6 va-sm-t full"
+                      >
+                        <h2
+                          className="fs12-sm lh14-sm fs14-md lh-16-md u-bold"
+                        >
+                          Nike Training Club App
+                        </h2>
+                        <p
+                          className="fs12-sm lh14-sm fs14-md lh16-md text-color-grey"
+                        >
+                          Available in the App Store
+                        </p>
+                      </div>
+                      <div
+                        className="ncss-col-sm-4 va-sm-t ta-sm-r"
+                      >
+                        <button
+                          className="fs12-sm pt1-sm pr3-sm pb1-sm pl3-sm ncss-btn-border-medium-grey u-rounded"
+                          type="button"
+                        >
+                          Download
+                        </button>
+                      </div>
+                    </div>
+                    <div
+                      className="ncss-row mb3-sm"
+                    >
+                      <div
+                        className="ncss-col-sm-12"
+                      >
+                        <img
+                          className={
+                            Object {
+                              "data-css-63oe3q": "",
+                            }
+                          }
+                          src="./img/img_3.png"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      className="ncss-row mb4-sm"
+                    >
+                      <div
+                        className="ncss-col-sm-12"
+                      >
+                        <h1
+                          className="fs12-sm lh14-sm fs14-md lh-16-md"
+                        >
+                          New Workout Collection
+                        </h1>
+                        <p
+                          className="fs12-sm lh14-sm fs14-md lh-16-md text-color-grey"
+                        >
+                          Boxer Arms
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="ncss-row"
+                >
+                  <div
+                    className="css-1l9llol ncss-col-sm-12 p4-sm"
+                  >
+                    <p
+                      className="fs12-sm fs14-xl u-bold"
+                    >
+                      Break a sweat to over 160 guided workouts.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </AppCard>
+          </div>
+        </div>
+      </Slides>
+    </div>
+  </div>
+</GlamorousReactCarousel>
+`;

@@ -50,8 +50,7 @@ const slides = [
     'New Workout Collection',
     'Boxer Arms',
     'Break a sweat to over 160 guided workouts.'
-  ),
-
+  )
 ];
 
 export default class Demo extends React.Component {
