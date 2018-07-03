@@ -1,5 +1,5 @@
 # React Slider
-## A configurable, responsive slider for React applications
+**A configurable, responsive slider for React applications**
 
 #### Demo
 To start the demo, run `yarn start` from the command line. Demo will run at http://localhost:8080
@@ -44,4 +44,41 @@ export function MyComponent() {
   );
 }
 
+```
+
+#### Config Options
+**slidesInViewport, slideWidth, and showArrows** each accept an object with keys representing supported breakpoints: 
+```
+const config = {
+  slidesInViewport: {
+    sm: 1.5,
+    md: 2.5,
+    lg: 3.5,
+    xl: 4.5,
+    xxl: 4.4
+  }
+}
+```
+If needed, the definitions for these breakpoints can be adjusted in src/const/index.js.
+
+- **slidesInViewport** The number of slides displayed within the slider wrapper. For example, a value of 1.5 would display one and a half slides in the viewport, and the user would need to scroll or advance the slider to view more slides. Default: 
+```
+{
+  sm: 1.5,
+  md: 2.5,
+  lg: 3.5,
+  xl: 4.5,
+  xxl: 4.5
+}
+```
+
+- **slideWidth** This option can be used to specify a fixed with (in pixels) for each breakpoint. If supplied, these values will override any values supplied in slidesInViewport. Default: 
+```
+slideWidth: {
+  sm: null,
+  md: null,
+  lg: null,
+  xl: null,
+  xxl: null
+}
 ```
