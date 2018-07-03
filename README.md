@@ -61,7 +61,7 @@ const config = {
 ```
 If needed, the definitions for these breakpoints can be adjusted in src/const/index.js.
 
-- **slidesInViewport** The number of slides displayed within the slider wrapper. For example, a value of 1.5 would display one and a half slides in the viewport, and the user would need to scroll or advance the slider to view more slides. Default: 
+- **slidesInViewport <Object>** The number of slides displayed within the slider wrapper. For example, a value of 1.5 would display one and a half slides in the viewport, and the user would need to scroll or advance the slider to view more slides. *Default:* 
 ```
 {
   sm: 1.5,
@@ -72,9 +72,9 @@ If needed, the definitions for these breakpoints can be adjusted in src/const/in
 }
 ```
 
-- **slideWidth** This option can be used to specify a fixed with (in pixels) for each breakpoint. If supplied, these values will override any values supplied in slidesInViewport. Default: 
+- **slideWidth <Object>** This option can be used to specify a fixed width (a number representing the width in pixels) for each breakpoint. If supplied, these values will override any values supplied in slidesInViewport. *Default:*
 ```
-slideWidth: {
+{
   sm: null,
   md: null,
   lg: null,
@@ -82,3 +82,28 @@ slideWidth: {
   xxl: null
 }
 ```
+
+- **showArrows <Object>** Use a boolean value to specify whether left/right arrows should be displayed for each breakpoint. Currently, when no arrows are displayed, the slider will only respond to touch events. Conversely, when arrows are displayed, clicking them is the only way to advance the slider (i.e. no touch events). *Default:*
+```
+{
+  sm: false,
+  md: false,
+  lg: true,
+  xl: true,
+  xxl: true
+}
+```
+
+- **slideMargin<Number>** Sets right-margin property for slides (i.e. the spacing between slides in pixles) *Default: 10*
+
+- **leftArrowClass <String>** Class for left arrow glyph. *Default: 'g72-arrow-thin-left'*
+
+- **rightArrowClass <String>** Class for left arrow glyph. *Default: 'g72-arrow-thin-right'*
+
+- **arrowColor <String>** Color for left/right arrows. *Default: 'black'*
+
+- **slideDistanceOnClick <Number>** The number of slides to move out of the viewport when left/right arrow is clicked. *Default: 2*
+
+- **scrollSpeed <Number>** Advance speed (in ms) when left/right arrow is clicked. *Default: 500*
+
+
