@@ -10,8 +10,9 @@ Import the ReactSlider component from anywhere in your app:
 
 ### Component Props ###
 The ReactSlider component accepts two props: 
-**slides** (required)
+
+- **slides (required)**
 An array of react components. The components will be displayed in variable width containers inside the slider. Your components should be responsive. The width of the slides will depend on browser size and config options, so write components to fill the width of those containers.
 
-**config** (optional)
+- **config (optional)**
 An object including overrides for any of the slider's default properties.
